@@ -1,0 +1,134 @@
+body{
+    background-color:#FFDEBD
+    }
+    
+    h1 {
+        font-family: Niconne;
+        font-size: 150px;
+        font-weight: normal;
+        text-align: center;
+        color: #613700
+    
+    }
+    
+    
+    h2 {
+        font-family: "Fira Sans Condensed";
+        font-size: 40px;
+        font-weight: thick;
+        text-align: center;
+        color: #613700;
+    }
+    
+    h3 { 
+        font-family: "Fira Sans Condensed" ;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: #613700;
+    }
+    
+    p {
+        font-family: "Signika Negative";
+        font-size: 20px;
+        font-weight: normal;
+        color: #613700;
+    }
+    
+    
+    .nursing {
+        margin: 100px 50px 100px 50px;
+        text-align: left;
+    }
+    
+    
+    
+    .family {
+        margin: 100px 50px 100px 50px;
+        text-align: right
+    }
+    
+    
+    
+    .whats-next {
+        margin: 100px 40px 100px 40px;
+        text-align: left;
+    }
+    
+    
+    
+    .navigation {
+        margin: 50px 50px 50px 50px;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .column2of3 {
+        width: 300px;
+        float: left;
+        margin: 200px 50px 200px 50px;
+    
+    
+    }
+    
+    .column1of3, .column3of3 {
+        width: 300px;
+        float: left;
+        margin: 100px 50px 100px 50px;
+    
+    }
+    
+    
+    #quote {
+        font-family: Niconne;
+        margin: 100px 100px 100px 100px;
+        font-size: 50px;
+        font-weight: normal;
+        text-align: center;
+        color: #613700
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .hovertext {
+        position: relative;
+    }
+    
+    .hovertext:before {
+        content: attr(data-hover);
+        visibility: hidden;
+        opacity: 0;
+        width: 100px;
+        background: #613700;
+        color:#fff;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px 0;
+        transition: opacity; 1s ease-in-out;
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        top: 110%;
+    
+    }
+    
+    .hovertext:hover:before {
+        opacity: 1;
+        visibility: visible;
+    }
