@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+
+    <head> 
+
+
+        <link href="stylesheet.css" type="text/css" rel="stylesheet" />
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,500&family=Niconne&family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+    
+
+
+
+
+
+
+
+
+    
+        <title> Zhordera </title> 
+        <meta name="description"
+            content="Hobby page for bioSite"/>
+        <meta name="keywords"
+            content="bioSite, web 200,"/>
+        <meta name="robots"
+            content="no follow"/>
+        <meta http-equiv="author"
+            content="Danielle Cannon"/>
+    
+    </head>
+
+
+
+
+
+        <header> Zhordera </header>
+
+<h2> Interests </h2>
+
+
+<div class="column1of2interests">
+    
+    <img src="images/fishing.JPG" alt="Zee Fishing" width="250" height="300" hspace="30" style="float:center" />
+    
+   
+   
+    <br>
+    
+    
+    <img src="images/travel.JPG" alt="Zee Traveling" width="250" height="400" hspace="30" style="float:center" />
+    
+    
+    <br>
+    
+    
+    <img src="images/activities.JPG" alt="Zee Traveling" width="250" height="300" hspace="30" style="float:center" />
+    
+    
+    
+    <br>
+</div>
+
+
+
+
+
+
+
+
+<div class="column2of2interests">
+
+<h3> Popcorn Anyone? </h3>
+
+<p> 
+    The perfect past time that will take you to whimsically unique realities and action-packed battles all with the click of a remote.
+    Or a pre-purchased ticket. Zhordera enjoys movies and television to relax after long draining days. 
+    The distractions of these stories bring joy where there is pain, healing where there may be suffering, 
+    and excitement in place of the mind-numbing worries. 
+
+</p>
+
+
+
+
+<h3> 1 Fish, 2 Fish....  </h3>
+
+<p>
+    Growing up in the country sides of her hometown, fishing became a regular pass time during Zee's childhood.
+    Even to this day, she enjoys gathering her friends and family, a couple of snacks, and her fishing rod
+    to head out to snag the catch of the day!
+
+</p>
+
+
+
+
+<h3> Where to Next? </h3>
+
+<p> 
+    Just like most hard-working individuals, traveling is one of the most desired activities. 
+    Zhordera is no different. Having memberships that grant her access to resorts anywhere in the country, 
+    she makes sure to take advantage of that. Having the opportunities, or blessings as Zhordera puts it, 
+    to be able to travel and visit new places and people is something a lot wish they had. She is grateful to be able to take getaways when she can.
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+
+
+<div class="navigation"> 
+
+    <span class="hovertext" data-hover="Home">
+  
+        <a href="index.html" target="_blank">
+       <img src="images/home.png" alt="heart icon" width="50" height="50" hspace="20" />
+        </a>
+    
+    </span>
+        
+    
+    
+    <span class="hovertext" data-hover="About">
+        
+        <a href="about.html" target="_blank">
+        <img src="images/person.png" alt="person icon" width="50" height="50" hspace="20"/>
+        </a>
+    
+    </span>
+
+
+
+</div>
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .column1of2interests {
+        width: 300px;
+        float: left;
+        margin: 30px;
+
+
+    }
+
+
+    .column2of2interests {
+        text-align: center;
+        width: 500px;
+        float: right;
+        margin: 30px;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+</html>
